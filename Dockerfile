@@ -1,5 +1,5 @@
-FROM mysql:latest
-ENV MYSQL_ROOT_PASSWORD=RootMeg@Pa$$w0rd!
-ENV MYSQL_DATABASE=homework12
+FROM mysql/mysql-server:latest
 ENV MYSQL_USER=user
+ENV MYSQL_DATABASE=homework12
 ENV MYSQL_PASSWORD=User123qaz456wsx
+ENV MYSQL_ROOT_PASSWORD=RootMeg@Pa$$w0rd!
